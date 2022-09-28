@@ -1,0 +1,16 @@
+*{
+    background-color: #FFFFFF;
+}
+.searchicon {
+    width: 1%;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+ul {
+    list-style-type: none;
+}
