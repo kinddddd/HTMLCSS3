@@ -14,3 +14,18 @@
 ul {
     list-style-type: none;
 }
+
+.clothes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+
+
+
