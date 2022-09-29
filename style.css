@@ -1,9 +1,8 @@
 *{
-    background-color: #FFFFFF;
     font-family: sans-serif;
 }
 .searchicon {
-    width: 1%;
+    width: 5%;
 }
 
 .header {
@@ -42,12 +41,14 @@ ul {
     max-width: 1700px;
     margin: 0 auto;
     padding: 10px 0;
+    background-color: antiquewhite;
     
 }
 
 .margin-img {
     margin-top: 30px;
     margin-left: 30px;
+    background-color: antiquewhite;
 }
 
 .img-text {
@@ -59,4 +60,23 @@ ul {
     font-weight: bold;
 }
 
+.div-footer-box-style {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 200px;
+    border-top: 2px solid grey;
 
+
+}
+
+.footer-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid grey;
+    margin: 50px;
+}
